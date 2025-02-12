@@ -1,8 +1,8 @@
-package com.example.vocab
+package com.github.kotlintelegrambot.echo
 
 import java.io.File
 
-    fun main(args: Array<String>) {
+fun main(args: Array<String>) {
         val inputFile = File("new.txt")
         val wordsFile = File("words.txt")
         val phrasesFile = File("phrases.txt")
